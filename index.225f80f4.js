@@ -1,0 +1,2 @@
+var e=new Promise(function(e,t){document.querySelector(".logo").addEventListener("click",function(){e()})}),t=new Promise(function(e,t){setTimeout(function(){t(Error("Timeout after 3 seconds"))},3e3)});e.then(function(){var e;(e=document.createElement("div")).className="message",e.textContent="Promise was resolved!",document.body.appendChild(e)}).catch(function(e){e()}),t.catch(function(){var e;(e=document.createElement("div")).className="message error-message",e.textContent="Promise was rejected!",document.body.appendChild(e)});
+//# sourceMappingURL=index.225f80f4.js.map
